@@ -23,6 +23,6 @@ namespace MongoCRUDDB
         public int? InStock { get; set; }
 
         [BsonElement("Price")]
-        public double? Price { get; set; }
+        public int? Price { get; set; }
     }
 }
